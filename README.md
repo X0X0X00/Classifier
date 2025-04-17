@@ -76,15 +76,33 @@ Then open your browser:
 
 ## Model Visualization (Grad-CAM)
 
-The model's attention region for a given prediction is visualized using Grad-CAM, which overlays a heatmap showing "where" the model looked in the image.
+We incorporate **Grad-CAM** to visualize what the model "sees" during classification.  
+A heatmap overlay is generated for each prediction, highlighting the regions in the image that were most influential in the decision-making process.  
+This improves **model transparency** and **user trust**.
 
 ## Dataset
 
-We use the `cats_and_dogs_filtered` dataset from TensorFlow's public repository (automatically downloaded via `utils.py`):
+We use the **`cats_and_dogs_filtered`** dataset from **TensorFlow's official repository**, which provides a clean and well-balanced set of labeled images for binary classification.
 
-- 24349 training images (cats and dogs, balanced)  
-- 1,000 validation images  
+Our version contains:
+
+- **24,349 training images** (cats and dogs, approximately balanced)  
+- **1,000 validation images** for unbiased evaluation  
+
+Compared to small toy datasets often used in tutorials, this dataset offers **significant scale and diversity**, enabling the model to learn robust visual features and generalize well to new cat and dog images.  
+The dataset is **automatically downloaded** and organized by our `utils.py` script.
+
+**Note:** This model is trained exclusively on cats and dogs. It may not provide accurate results for other animals or image categories.
 
 ## License
 
-MIT License. For educational and research purposes.
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute this code for personal, educational, or commercial purposes, provided that proper attribution is given.
+
+See the [LICENSE](./LICENSE) file for full license text.
+
+MIT License
+
+Copyright (c) 2025 [Zhenhao Zhang]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy...
