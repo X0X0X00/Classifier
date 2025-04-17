@@ -98,11 +98,7 @@ The dataset is **automatically downloaded** and organized by our `utils.py` scri
 
 This project is licensed under the **MIT License**.  
 You are free to use, modify, and distribute this code for personal, educational, or commercial purposes, provided that proper attribution is given.
-
 See the [LICENSE](./LICENSE) file for full license text.
 
 MIT License
-
-Copyright (c) 2025 [Zhenhao Zhang]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
+Copyright (c) 2025 Zhenhao Zhang
