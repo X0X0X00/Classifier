@@ -1,6 +1,6 @@
 # Cat vs Dog Image Classifier with ResNet18 + Grad-CAM
 
-This project builds a deep learning pipeline for binary image classification (cat vs dog) using **PyTorch** and **ResNet18**, with integrated **Grad-CAM visualization**, **training monitoring**, and a **Gradio-powered web demo**.
+This project builds a deep learning pipeline for binary image classification (cat vs dog) using PyTorch and ResNet18. It is specifically trained to distinguish between cat and dog photos only — images of other animals or objects may not be accurately recognized. The project also includes integrated Grad-CAM visualization, training monitoring, and a Gradio-powered web demo for easy interaction.
 
 ## Features
 
