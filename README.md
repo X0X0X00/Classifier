@@ -80,4 +80,11 @@ The model's attention region for a given prediction is visualized using Grad-CAM
 
 ## Dataset
 
-We use the `cats_and_dogs_filtered` dataset from TensorFlow's public repository (
+We use the `cats_and_dogs_filtered` dataset from TensorFlow's public repository (automatically downloaded via `utils.py`):
+
+- 24349 training images (cats and dogs, balanced)  
+- 1,000 validation images  
+
+## License
+
+MIT License. For educational and research purposes.
